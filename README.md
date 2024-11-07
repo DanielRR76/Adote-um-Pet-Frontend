@@ -15,5 +15,5 @@ REACT_APP_API_URL=http://localhost:3000/
 ## Run the project
 
 ### `npm i`
-### `npm run dev`
+### `npm run start`
 
