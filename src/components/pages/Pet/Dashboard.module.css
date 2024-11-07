@@ -1,0 +1,151 @@
+.petlist_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2em;
+}
+
+.petlist_header h1{
+    margin:0;
+}
+
+.petlist_header a{
+    text-decoration: none;
+    color: #16479d;
+    font-weight: bold;
+    cursor: pointer;
+    transition: .3s;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+    border: 1px solid #16479d;
+    background-color: #eeff00;
+}
+
+.petlist_header a:hover{
+    background-color: #16479d;
+    color: #eeff00;
+    transition: .3s;
+    border: 1px solid #eeff00;
+
+}
+
+.petlist_container{
+    display: flex;
+    flex-direction: column;
+    border: 0px solid #16479d;
+}
+
+.petlist_row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 1em;
+    padding: 0.5em 0.8em;
+    border-bottom: 1px solid #16479d;
+}
+
+.petlist_row img{
+    margin-right: 1em;
+}
+.petlist_row span{
+    min-width: 100px;
+}
+.actions{
+    margin-left: auto;
+}
+
+.actions a, .actions button{
+    text-decoration: none;
+    color: #16479d;
+    font-weight: bold;
+    cursor: pointer;
+    transition: .3s;
+    padding: 7px 10px;
+    border-radius: 5px;
+    border: 1px solid #16479d;
+    background-color: #eeff00;
+    font-size: 12px;
+    margin-left: 1em;
+}
+
+.actions a:hover, .actions button:hover{
+    background-color: #16479d;
+    color: #eeff00;
+    transition: .3s;
+    border: 1px solid #eeff00;
+
+}
+
+.actions .conclude_btn{
+    background-color: #25b456;
+    border: 1px solid #25b456;
+    color: #eeff00;
+}
+
+.actions .conclude_btn:hover{
+    background-color: #19793a;
+    border: 1px solid #19793a;
+    color: #c0ce00;
+    transition: .3s;
+}
+
+/*my adoptions*/
+.contacts {
+    margin-left: 1em;
+    border: 0px solid #16479d;
+    
+}
+.contacts p{
+    margin-bottom: 0.5em;
+    font-weight: bold;
+    margin-right: 1em;
+}
+.contacts span{
+    font-weight: 200;
+    color:#c0ce00;
+}
+
+
+.adoptions{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0.5em 0.8em;
+    border-bottom: 1px solid #16479d;
+    margin-bottom: 1em;
+}
+.adoptions_actions{
+    margin-left: auto;
+    border: 0px solid #16479d;
+    /*margin-right: 2em;*/
+}
+.adoptions img{
+    margin-right: 1.5em;
+}
+
+.adotar{
+    display: flex;
+    align-items: center;
+}
+.adotar button{
+    text-decoration: none;
+    color: #16479d;
+    font-weight: bold;
+    cursor: pointer;
+    transition: .3s;
+    padding: 7px 10px;
+    border-radius: 5px;
+    border: 1px solid #16479d;
+    background-color: #eeff00;
+    font-size: 12px;
+    margin-left: 1em;
+}
+
+.adotar button:hover{
+    background-color: #16479d;
+    color: #eeff00;
+    transition: .3s;
+    border: 1px solid #eeff00;
+}

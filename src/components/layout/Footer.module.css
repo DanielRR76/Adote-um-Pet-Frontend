@@ -1,0 +1,20 @@
+.footer {
+    min-height: 27vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease, color 0.3s ease, border-top 0.3s ease;
+    border: 0px solid #9c9b9b;
+}
+
+.footer.light {
+    background-color: #ffd400;
+    color: #000000;
+    border-top: 1px solid #868383;
+}
+
+.footer.dark {
+    background-color: #111111;
+    color: #9c9b9b;
+    border-top: 1px solid #615f5f;
+}
