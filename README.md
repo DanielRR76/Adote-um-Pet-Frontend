@@ -1,4 +1,4 @@
-# Getting Started with Adote um Pet Project
+# Getting Started with GET A PET Project
 
 ## Available Scripts
 
