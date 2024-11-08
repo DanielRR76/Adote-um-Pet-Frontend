@@ -24,7 +24,7 @@ function Home() {
                 {pets.length > 0 && (
                     pets.map((pet) => (
                         <div key={pet.id} className={styles.pet_card}>
-                            <div style={{backgroundImage: `url(${process.env.REACT_APP_API_URL}/images/pets/${JSON.parse(pet.images)[0]})`}} className={styles.pet_card_image}>
+                            <div style={{backgroundImage: `url(${process.env.REACT_APP_API_URL}/images/pets/${pet.images[0]})`}} className={styles.pet_card_image}>
 
                             </div>
                             <h3>{pet.name}</h3>

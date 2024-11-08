@@ -73,7 +73,7 @@ function MyPets() {
                     pets.map((pet) => (
                         <div className={styles.petlist_row} key={pet.id}>
                             <RoundedImage
-                                src={`${process.env.REACT_APP_API_URL}/images/pets/${JSON.parse(pet.images)[0]}`}
+                                src={`${process.env.REACT_APP_API_URL}/images/pets/${pet.images[0]}`}
                                 alt={pet.name}
                                 width="px75"
                             />
