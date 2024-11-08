@@ -46,7 +46,7 @@ function PetDetails(){
                         <p>Se tiver interesse, marque uma visita para conhecê-lo pessoalmente.</p>
                     </div>
                     <div className={styles.pet_images}>
-                        {JSON.parse(pet.images).map((image, index) => (
+                        {pet.images.map((image, index) => (
                             <img src={`${process.env.REACT_APP_API_URL}/images/pets/${image}`} alt={pet.name} key={`${pet.name}+${index}`} />
                         ))}
                     </div>
