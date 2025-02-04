@@ -2,10 +2,6 @@
 
 ## Available Scripts
 
-In the project directory, you can run:
-
-### `npm run dev`
-
 ## Things to do
 
 Create env file and set url backend. Ex.:\
