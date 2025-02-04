@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Adote-um-Pet-Frontend/static/css/main.5bd7c224.css",
+    "main.js": "/Adote-um-Pet-Frontend/static/js/main.043c34fc.js",
+    "static/media/brightness.png": "/Adote-um-Pet-Frontend/static/media/brightness.f38abd4b4bcc934ca10a.png",
+    "index.html": "/Adote-um-Pet-Frontend/index.html",
+    "main.5bd7c224.css.map": "/Adote-um-Pet-Frontend/static/css/main.5bd7c224.css.map",
+    "main.043c34fc.js.map": "/Adote-um-Pet-Frontend/static/js/main.043c34fc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5bd7c224.css",
+    "static/js/main.043c34fc.js"
+  ]
+}
