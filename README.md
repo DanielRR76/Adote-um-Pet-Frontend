@@ -3,8 +3,8 @@
 ## Things to do
 
 Create env file and set url backend. Ex.:\
-If your back is running in http://localhost:3000, in your env file you will do this:\
-REACT_APP_API_URL=http://localhost:3000/
+If your back is running in http://localhost:3030, in your env file you will do this:\
+REACT_APP_API_URL=http://localhost:3030/
 
 ## Run the project
 
