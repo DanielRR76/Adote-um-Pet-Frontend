@@ -1,7 +1,5 @@
 # Getting Started with GET A PET Project
 
-## Available Scripts
-
 ## Things to do
 
 Create env file and set url backend. Ex.:\
