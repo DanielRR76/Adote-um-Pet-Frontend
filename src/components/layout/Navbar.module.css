@@ -1,64 +1,66 @@
-.navbar{
-    display: flex;
-    justify-content: space-between;
-    padding: 1em 1.5em;
-    background-color: #ffd400;
-    color: #16479d;
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 1em 1.5em;
+  background-color: #ffd400;
+  color: #16479d;
+}
+.logo_link:hover {
+  text-decoration: none;
+  background-color: #ffd400;
+}
+.navbar__logo {
+  display: flex;
+  align-items: center;
+  border: 0px solid #16479d;
 }
 
-.navbar__logo{
-    display: flex;
-    align-items: center;
-    border: 0px solid #16479d;
+.navbar__logo img {
+  width: 50px;
+  margin-right: 0.8em;
 }
-
-.navbar__logo img{
-    width: 50px;
-    margin-right: 0.8em;
-}
-.navbar ul{
-    display: flex;
-    align-items: center;
-    list-style: none;
-    border: 0px solid #16479d;
+.navbar ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  border: 0px solid #16479d;
 }
 
 .navbar li:not(.nav_button),
-.navbar a{
-    text-decoration: none;
-    color: #16479d;
-    font-weight: bold;
-    cursor: pointer;
-    transition: .3s;
-    padding: .5em .8em;
-    border-radius: 5px;
+.navbar a {
+  text-decoration: none;
+  color: #16479d;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+  padding: 0.5em 0.8em;
+  border-radius: 5px;
 }
 
 .navbar li:hover:not(.nav_button),
-.navbar a:hover{
-    background-color: #16479d;
-    color: #ffd400;
-    
+.navbar a:hover {
+  background-color: #16479d;
+  color: #ffd400;
 }
-.nav_button{
-    text-decoration: none;
-    font-weight: bold;
-    transition: .3s;
-    padding: .5em .8em;
+.nav_button {
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+  padding: 0.5em 0.8em;
 }
-.nav_button .botao{
-    background-color: #ffd400;
-    border: none;
+.nav_button .botao {
+  background-color: #ffd400;
+  border: none;
 }
-.nav_button .botao:hover{
-    background-color: #ffd400;
-    color: #ffd400;
-    cursor: pointer;
+.nav_button .botao:hover {
+  background-color: #ffd400;
+  color: #ffd400;
+  cursor: pointer;
 }
-.botao img{
-    width: 20px;
+.botao img {
+  width: 20px;
 }
-.botao img:hover{
-    width: 25px;
-    transition: .3s;
+.botao img:hover {
+  width: 25px;
+  transition: 0.3s;
 }
